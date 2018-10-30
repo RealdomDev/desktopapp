@@ -1,9 +1,8 @@
-package dom.band;
+package com.realdom;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
@@ -16,7 +15,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -25,9 +23,10 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import graphics3D.Graphics3D;
+import dom.band.FieldPanel;
+import dom.band.Performer;
 
-public class Band {
+public class Main {
 	private static List<Performer> performerList = new ArrayList<Performer>();
 
 	@SuppressWarnings("serial")
