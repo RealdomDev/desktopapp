@@ -1,0 +1,20 @@
+All names correspond to their values respectively.
+hashes are y values/names
+yardls are x values/names
+
+private static float[] DEFAULTHASHES = {0, 28, 58, 85};
+
+private static float[] DEFAULTYARDLS = {0, 8, 16, 24, 32, 40, 48, 56, 64, 72,
+80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160};
+
+private static String[] DEFAULTHASHNAMES = {"front sideline", "front hash",
+"back hash", "back sideline"};
+
+private static String[] DEFAULTYARDNAMES = {"0 yardline side 1",
+"5 yardline side 1", "10 yardline side 1", "15 yardline side 1",
+"20 yardline side 1", "25 yardline side 1", "30 yardline side 1",
+"35 yardline side 1", "40 yardline side 1", "45 yardline side 1",
+"50 yardline", "45 yardline side 2", "40 yardline side 2",
+"35 yardline side 2", "30 yardline side 2", "25 yardline side 2",
+"20 yardline side 2", "15 yardline side 2", "10 yardline side 2",
+"5 yardline side 2", "0 yardline side 2"};
