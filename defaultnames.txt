@@ -2,6 +2,10 @@ All names correspond to their values respectively.
 hashes are y values/names
 yardls are x values/names
 
+Use this with "Dot.Java"
+
+----------------------------------
+
 private static float[] DEFAULTHASHES = {0, 28, 58, 85};
 
 private static float[] DEFAULTYARDLS = {0, 8, 16, 24, 32, 40, 48, 56, 64, 72,
