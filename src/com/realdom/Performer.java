@@ -33,6 +33,18 @@ public class Performer {
         return posarray[idx].getLocation();
     }
 
+    public double getX(int idx) {
+        // returns x value of point at posarray idx
+
+        return posarray[idx].getX();
+    }
+
+    public double getY(int idx) {
+        // returns y value of point array at posarray idx
+
+        return posarray[idx].getY();
+    }
+
     public void setPos(int idx, double x, double y) {
         posarray[idx].setLocation(x, y);
     }
