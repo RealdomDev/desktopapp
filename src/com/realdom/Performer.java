@@ -27,21 +27,18 @@ public class Performer {
 
     public Point getPos(int idx) {
         // I'm not actually sure what .getLocation() does
-        // Java documentation says it "returns location" but perhaps
+        // Java documentation says it "returns location"
         // it may be more useful to write two seperate methods to get x and y
-
         return posarray[idx].getLocation();
     }
 
     public double getX(int idx) {
         // returns x value of point at posarray idx
-
         return posarray[idx].getX();
     }
 
     public double getY(int idx) {
         // returns y value of point array at posarray idx
-
         return posarray[idx].getY();
     }
 
